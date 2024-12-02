@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+    <div id="circle"></div>
+    <div id="buttons">
+        <button onclick="changeColor('red')">Red</button>
+        <button onclick="changeColor('green')">Green</button>
+        <button onclick="changeColor('blue')">Blue</button>
+        <button onclick="changeColor('')">Reset</button>
+    </div>
+    <input type="text" id="colorInput" placeholder="Type Colors" oninput="changeColorFromInput()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
